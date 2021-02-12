@@ -1,5 +1,5 @@
 header {
-    background-color: #fff;
+    background-color: #4CB0E0;
     padding: 25px 0;
     box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
     position: fixed;
@@ -45,6 +45,7 @@ header {
   
   .open-menu-btn:hover {
     color:#3C7AEB ;
+    
   }
   
   .fa-bars {
@@ -132,15 +133,15 @@ header {
   .about-name {
     margin-top: 0;
     margin-bottom: 5px;
-    color: #3C7AEB 
-    ;
+    color: #2263FA;
+    font-family: 'Noto Sans JP', sans-serif;
   }
   
   .about-description {
     color: #616161;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 40px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
   }
   
   .about-section {
@@ -188,6 +189,7 @@ header {
   html,body {
   margin: 0;
   height: 100%;
+  background-color: #fff ;
 }
 
 * {
@@ -241,8 +243,7 @@ a {
   display: block;
 }
 
-b,
-strong {
+b, strong {
   font-weight: bold;
 }
 
@@ -327,7 +328,7 @@ button {
 }
 
 .contact-section {
-  background-color: #f6f7fb;
+  background-color: #A8E3B2;
   padding-top: 200px;
 }
 
@@ -388,7 +389,7 @@ button {
   width: 2.2rem;
   height: 2.2rem;
   background-color: #fff;
-  color: #8338ec;
+  color:#FF2E1D;
   border-radius: 50%;
   font-size: 1.2rem;
   line-height: 2.2rem;
@@ -459,9 +460,7 @@ textarea:valid {
   color: #f5414f;
 }
 
-input:valid ~ .icon-valid,
-textarea:valid ~ .icon-valid,
-input:not(:placeholder-shown):invalid ~ .icon-invalid,
+input:valid ~ .icon-valid, textarea:valid ~ .icon-valid, input:not(:placeholder-shown):invalid ~ .icon-invalid,
 textarea:not(:placeholder-shown):invalid ~ .icon-invalid {
   display: block;
 }
@@ -533,7 +532,7 @@ textarea:not(:placeholder-shown):invalid ~ .icon-invalid {
     justify-content: center;
     align-items: center;
     padding: 80px 20px 60px;
-    background-color: #8338ec;
+    background-color: #4CB0E0;
     color: white;
   }
   
@@ -572,7 +571,7 @@ textarea:not(:placeholder-shown):invalid ~ .icon-invalid {
     width: 2.7rem;
     height: 2.7rem;
     background-color: white;
-    color: #8338ec;
+    color: #FF2515;
     border-radius: 50%;
     font-size: 1.2rem;
     line-height: 2.7rem;
@@ -606,7 +605,7 @@ textarea:not(:placeholder-shown):invalid ~ .icon-invalid {
 
   
   .selected {
-    background-color: #8338ec;
+    background-color: #4CB0E0;
     color: white;
     padding: 0 30px;
     border-radius: 100px;
@@ -739,7 +738,7 @@ textarea:not(:placeholder-shown):invalid ~ .icon-invalid {
   }
 
   .quote-section {
-    background-color: #8338ec;
+    background-color: #4CB0E0;
     color: white;
   }
   
@@ -770,7 +769,7 @@ textarea:not(:placeholder-shown):invalid ~ .icon-invalid {
   }
 
   .skills-section {
-    background-color: #f6f7fb;
+    background-color: #A8E3B2;
   }
   
   .skills-grid {
